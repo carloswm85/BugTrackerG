@@ -5698,19 +5698,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {}
+    "C:\\Users\\cwm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\BugTrackerG\\BugTrackerG\\BugTrackerG.csproj",
+      "projectUniqueName": "C:\\Users\\cwm\\Source\\Repos\\carloswm85\\BugTrackerG\\BugTrackerG\\BugTrackerG.csproj",
       "projectName": "BugTrackerG",
-      "projectPath": "C:\\Users\\carlo\\source\\repos\\BugTrackerG\\BugTrackerG\\BugTrackerG.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\source\\repos\\BugTrackerG\\BugTrackerG\\obj\\",
+      "projectPath": "C:\\Users\\cwm\\Source\\Repos\\carloswm85\\BugTrackerG\\BugTrackerG\\BugTrackerG.csproj",
+      "packagesPath": "C:\\Users\\cwm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cwm\\Source\\Repos\\carloswm85\\BugTrackerG\\BugTrackerG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cwm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5775,7 +5775,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
       }
     }
   }
