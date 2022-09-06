@@ -1,5 +1,0 @@
-1 | BugTrackerG | ASP.NET Core Web App (Model-View-Controller) | Newer Web App | .NET Core 3.1 | Console Application
-
-# Data base model
-
-Take a look to papers.
