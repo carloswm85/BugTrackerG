@@ -1,6 +1,6 @@
 # Bug Tracker Project
 
-1 | BugTrackerG | ASP.NET Core Web App (Model-View-Controller) | Newer Web App | .NET Core 3.1 | Console Application
+Local Description: 1 | BugTrackerG | ASP.NET Core Web App (Model-View-Controller) | Newer Web App | .NET Core 3.1 | Console Application
 
 ## Description
 
@@ -11,11 +11,16 @@ A bug tracking system (BTS) is a software application that is designed to help p
 - Bugs will be assigned to a person along with a bug id, screenshot, description, project name, etc.
 - Bug can be submitted to the tester with an attachment for detailed report of the bug.
 - Admin can maintain users, projects, organizations, bug categories, bug priorities, status of bug, etc.
-## Functionality
 
-1. Web Based.
-2. Increased Productivity.
-3. 
+## Functionality (Justification)
+
+1. Web Based: A web application is superior in many ways to locally installed systems.
+2. Increased Productivity: It can dramatically increase the productivity and accountability of individual employees by providing a documented workflow and positive feedback for good performance.
+3. Quality of the Software: Better developed software.
+3. One Shared, Central Location: No dependance of work tracking on emails, spreadsheets or local files is a must.
+3. Accountability: Specific people is made accountable on what they're doing.
+3. Paper Trails: Every update is permanently logged.
+
 
 ## Objectives
 
@@ -37,5 +42,37 @@ i. Easy to keep track of the bug and its resolving status.
 - Admin
 
 
-## Data base model
+## Data Base Diagram
 
+https://dbdiagram.io/d/630d18910911f91ba5eda63e 
+
+---
+
+# IDEAS
+
+## Some ideas I could implement
+
+1. Background tasks (tareas en segundo plano).
+2. Asynchronous programming:
+  ```csharp
+  var exists = await _ctx.Users.AnyAsync(u => u.Number == number);
+  if (exists) return Conflict();
+
+  _ctx.Users.Add(new User {
+      // ...
+  });
+  await _ctx.SaveChangesAsync();
+  ```
+3. Real time requests (aplicaciones en tiempo real): Signal Alarm (?), Sockets (?)
+4. Desing Patterns (types, and their classification):
+    - Singleton (easier, common)
+    - Mediator
+    - Observable
+    - Builder
+    - Factory
+    - Strategy
+    - State
+    - Fasate
+    - Repository
+    - Decorator
+5. Unit Testing and Unit Coverage. Include TDD?
