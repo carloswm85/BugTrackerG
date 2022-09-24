@@ -44,7 +44,12 @@ i. Easy to keep track of the bug and its resolving status.
 
 ## Data Base Diagram
 
-https://dbdiagram.io/d/630d18910911f91ba5eda63e 
+https://dbdiagram.io/d/630d18910911f91ba5eda63e
+
+### Reading
+
+- https://dbdiagram.io/docs/ Tool to draw database diagrams (ERDs) by typing DSL code.
+- https://www.dbml.org/home/ dbdiagram uses the popular DBML (Database Markup Language).
 
 ---
 
